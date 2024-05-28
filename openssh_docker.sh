@@ -5,18 +5,18 @@ echo "Creating docker openssh server"
 
 docker run -d \
   --name=openssh-server \
-  --hostname=paulgrey-omen \
+  --hostname=your_hostname \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
-  -e PUBLIC_KEY_FILE=/home/paulgrey/.sshk/id_rsa.pub \
-  -e PUBLIC_KEY_DIR=/home/paulgrey/.sshk \
+  -e PUBLIC_KEY_FILE=/home/username/.sshk/id_rsa.pub \
+  -e PUBLIC_KEY_DIR=/home/username/.sshk \
   -e SUDO_ACCESS=false \
   -e PASSWORD_ACCESS=false \
-  -e USER_PASSWORD=Notnewtothegame89! \
-  -e USER_NAME=paulgrey \
+  -e USER_PASSWORD=password \
+  -e USER_NAME=username \
   -p 2222:2222 \
-  -v /home/paulgrey/.sshc/sshd_config \
+  -v /home/username/.sshc/sshd_config \
   --restart unless-stopped \
   lscr.io/linuxserver/openssh-server:latest
 
