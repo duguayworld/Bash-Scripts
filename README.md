@@ -22,6 +22,6 @@
 
    This script removes the duplicated lines within a file.
 
-5.**directory_struct.sh**
+5. **directory_struct.sh**
 
   This script creates a python application directory structure the right way.
