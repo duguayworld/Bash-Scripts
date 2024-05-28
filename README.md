@@ -25,3 +25,7 @@
 5. **directory_struct.sh**
 
     This script creates a python application directory structure the right way.
+
+5. **openssh_docker.sh**
+
+    This script creates an openssh server within a docker container.
