@@ -16,8 +16,6 @@
 
    This script identifies and lists installed drivers on the system and ouputs an install script.
 
-   Feel free to explore and use these scripts according to your needs!
-
 4. **rmdoubles.sh**
 
    This script removes the duplicated lines within a file.
