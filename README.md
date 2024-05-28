@@ -47,6 +47,3 @@ Run the script:
   ```
 
 Replace script_name.sh with the name of the script you want to run.
-License
-
-This project is licensed under the GPL-2.0 License.
