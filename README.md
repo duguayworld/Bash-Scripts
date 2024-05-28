@@ -24,4 +24,4 @@
 
 5. **directory_struct.sh**
 
-  This script creates a python application directory structure the right way.
+    This script creates a python application directory structure the right way.
