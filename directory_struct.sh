@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Change directory to free.tv
-cd hotel.tv || exit
+# Change directory to main
+cd main || exit
 
 # Create src directory and its subdirectories
 mkdir -p src/{gui/components,gui/views,gui/utils}
