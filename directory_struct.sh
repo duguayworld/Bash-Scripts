@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Change directory to hotel.tv
+# Change directory to free.tv
 cd hotel.tv || exit
 
 # Create src directory and its subdirectories
-mkdir -p src/{gui/components,gui/views,gui/styles,plugins/streaming_service_plugins,utils}
+mkdir -p src/{gui/components,gui/views,gui/utils}
 
 # Create resources directory and its subdirectories
 mkdir -p resources/{images,config}
